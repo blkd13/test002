@@ -1,0 +1,31 @@
+.grid {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 10pt;
+}
+
+.grid input,
+.grid select {
+    font-size: 10pt;
+}
+
+
+/*.ui-grid-cell-contents */
+
+.ui-grid-header-cell-primary-focus,
+.ui-grid-filter-container {
+    padding: 1px 3px 1px 3px;
+}
+
+.grid-cell-align-right {
+    text-align: right;
+}
+
+.ui-grid-row:nth-child(even) .ui-grid-cell {
+    /*background-color: #e4f7f0;*/
+}
+
+.btn {
+    cursor: pointer;
+}

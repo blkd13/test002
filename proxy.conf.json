@@ -1,0 +1,14 @@
+{
+  "/OsmMock": {
+    "target": "http://desk",
+    "secure": false
+  },
+  "/wwg": {
+    "target": "http://desk",
+    "secure": false
+  },
+  "/wwg-wwgejb": {
+    "target": "http://desk",
+    "secure": false
+  }
+}

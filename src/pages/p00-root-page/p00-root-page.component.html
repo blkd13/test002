@@ -1,0 +1,13 @@
+<header>
+  <menu class="menu">
+    <li routerLink="entry" [ngClass]="{'menu-focus':location.path() === '/entry'}">入力</li>
+    <li routerLink="default" [ngClass]="{'menu-focus':location.path() === '/default'}">一覧</li>
+    <li routerLink="summary" [ngClass]="{'menu-focus':location.path() === '/summary'}">集計</li>
+    <li routerLink="list" [ngClass]="{'menu-focus':location.path() === '/list'}">DB</li>
+    <li routerLink="data" [ngClass]="{'menu-focus':location.path() === '/data'}" [hidden]="location.path() !== '/data'">Data</li>
+  </menu>
+</header>
+
+<section class="divider">
+  <!-- <router-outlet></router-outlet> -->
+</section>

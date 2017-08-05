@@ -1,0 +1,14 @@
+<ion-content>
+  <!-- <div data-ui-grid="myGrid" class="grid"></div> -->
+
+  <!-- renderer -->
+  <script type="text/ng-template" id="objlink.html">
+    <div class="ui-grid-cell-contents" ng-click="grid.appScope.vm.link(row)">{{grid.getCellValue(row, col)}}</div>
+  </script>
+  <script type="text/ng-template" id="date.html">
+    <div class="ui-grid-cell-contents">{{grid.getCellValue(row, col) | date:"yyyy-MM-dd"}}</div>
+  </script>
+  <script type="text/ng-template" id="num.html">
+    <div class="ui-grid-cell-contents grid-cell-align-right">{{grid.getCellValue(row, col) | number:0}}</div>
+  </script>
+</ion-content>

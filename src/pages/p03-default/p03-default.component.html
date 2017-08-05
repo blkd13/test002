@@ -1,0 +1,17 @@
+<ion-content>
+  <!-- <ngx-datatable style="height:500px" [rows]="data|async" [columns]="column" [rowHeight]="25" [scrollbarV]="true"></ngx-datatable> -->
+  <!-- renderer -->
+  <script type="text/ng-template" id="objlink.html">
+    <div class="ui-grid-cell-contents btn" ng-click="grid.appScope.vm.link(row)">{{grid.getCellValue(row, col)}}</div>
+  </script>
+  <!-- renderer -->
+  <ng-template #updTpl let-column="column">
+    <div class="ui-grid-cell-contents updBtn" (click)="alert('gerare')">{{column.name}}</div>
+  </ng-template>
+  <ng-template #dateTpl let-column="column">
+    <div class="ui-grid-cell-contents" (click)="alert('gerare')">{{column.name}}</div>
+  </ng-template>
+  <ng-template #numTpl let-column="column">
+    <div class="ui-grid-cell-contents grid-cell-align-right">{{column.name}}</div>
+  </ng-template>
+</ion-content>

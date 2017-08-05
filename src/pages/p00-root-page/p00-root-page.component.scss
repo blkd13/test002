@@ -1,0 +1,46 @@
+.menu-focus {
+    color: #000;
+    background-color: #aaa;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.menu li {
+    line-height: 26px;
+    box-sizing: border-box;
+    border-right: 1px solid lightgray;
+    padding: 7px 10px 7px 10px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.subBox {
+    box-sizing: border-box;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.pageBody {
+    margin: 5px;
+}
+
+.divider {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: calc(100% - 40px);
+}

@@ -1,0 +1,103 @@
+.entryList {
+    list-style: none;
+    margin: 3px 0 20px 0;
+    padding: 0;
+    line-height: 40px;
+    display: -webkit-box;
+    /*--- Androidブラウザ用 ---*/
+    display: -ms-flexbox;
+    /*--- IE10 ---*/
+    display: -webkit-flex;
+    /*--- safari（PC）用 ---*/
+    display: flex;
+    -webkit-flex-direction: row;
+    /*--- safari（PC）用 ---*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.entryList li {
+    flex-basis: 170px;
+    -webkit-flex-basis: 170px;
+    /*--- safari（PC）用 ---*/
+}
+
+@media screen and (min-width:480px) {
+    .entryList {
+        -webkit-flex-direction: column;
+        /*--- safari（PC）用 ---*/
+        flex-direction: column;
+    }
+    .entryList li {
+        -webkit-flex-basis: 5px;
+        /*--- safari（PC）用 ---*/
+        flex-basis: 5px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .entryList {
+        -webkit-flex-direction: column;
+        /*--- safari（PC）用 ---*/
+        flex-direction: column;
+    }
+    .entryList li {
+        -webkit-flex-basis: 5px;
+        /*--- safari（PC）用 ---*/
+        flex-basis: 5px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .entryList {
+        -webkit-flex-direction: column;
+        /*--- safari（PC）用 ---*/
+        flex-direction: column;
+    }
+    .entryList li {
+        -webkit-flex-basis: 5px;
+        /*--- safari（PC）用 ---*/
+        flex-basis: 5px;
+    }
+}
+
+.entryList input[type="text"],
+.entryList input[type="number"],
+.entryList input[type="date"],
+.entryList select {
+    height: 25px;
+    width: 115px;
+}
+
+.entryList select {
+    width: 115px;
+}
+
+button {
+    font-size: 15pt;
+}
+
+input:invalid {
+    border-color: red;
+    background-color: pink;
+}
+
+.required:invalid {
+    border: 1px solid darkgray;
+    background-color: lemonchiffon;
+}
+
+.bottomButton {
+    width: 330px;
+    display: flex;
+    -webkit-flex-direction: row row-reverse;
+    /*--- safari（PC）用 ---*/
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    /*--- Androidブラウザ用 ---*/
+    -ms-flex-pack: justify;
+    /*--- IE10 ---*/
+    -webkit-justify-content: space-between;
+    /*--- safari（PC）用 ---*/
+    justify-content: space-between;
+}

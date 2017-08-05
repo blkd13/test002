@@ -1,0 +1,8 @@
+<form name="loginForm" ng-submit="vm.submit()">
+	<ul class="entryList">
+		<li><label>ログインID：<input type="text" name="id" [(ngModel)]="id"/></label></li>
+		<li><label>パスワード：<input type="password" name="passwd" [(ngModel)]="passwd"/></label></li>
+	</ul>
+	<input type="submit" value="ログイン" (click)="login()" />
+	<div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+</form>

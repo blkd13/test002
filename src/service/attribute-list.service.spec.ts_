@@ -1,0 +1,15 @@
+import { TestBed, inject } from '@angular/core/testing';
+
+import { AttributeListService } from './attribute-list.service';
+
+describe('AttributeListService', () => {
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [AttributeListService]
+    });
+  });
+
+  it('should be created', inject([AttributeListService], (service: AttributeListService) => {
+    expect(service).toBeTruthy();
+  }));
+});
