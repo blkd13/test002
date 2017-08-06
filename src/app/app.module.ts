@@ -6,6 +6,8 @@ import { CommonModule, DatePipe } from '@angular/common';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
@@ -42,7 +44,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HttpModule,
     CommonModule,
     JsonpModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    NgxDatatableModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

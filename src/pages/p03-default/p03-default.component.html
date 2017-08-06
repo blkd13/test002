@@ -1,5 +1,5 @@
 <ion-content>
-  <!-- <ngx-datatable style="height:500px" [rows]="data|async" [columns]="column" [rowHeight]="25" [scrollbarV]="true"></ngx-datatable> -->
+  <ngx-datatable style="height:500px" [rows]="data" [columns]="column" [rowHeight]="25" [scrollbarV]="true"></ngx-datatable>
   <!-- renderer -->
   <script type="text/ng-template" id="objlink.html">
     <div class="ui-grid-cell-contents btn" ng-click="grid.appScope.vm.link(row)">{{grid.getCellValue(row, col)}}</div>

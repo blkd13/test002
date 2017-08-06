@@ -32,12 +32,12 @@ export class P03DefaultComponent implements OnInit {
   //   { name: 'withwho', displayName: 'withwho', width: 60 },
   //   { name: 'serialNo', displayName: 'upd', width: 50, cellTemplate: 'upd.html' }
   // ];
-  data: Observable<AccountbookDto[]>;
+  data: AccountbookDto[];
 
   constructor(
     private accountBookList: AttributeListService
   ) {
-    this.data = accountBookList.accountBookList();
+    accountBookList.accountBookList().subscribe(ret => this.data = ret);
   }
   public upd(rowObj: any) {
     // this.rootScope['accrec'] = (<app.dto.AccountbookDto>rowObj.entity);
