@@ -1,17 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>一覧</ion-title>
+  </ion-navbar>
+</ion-header>
 <ion-content>
-  <ngx-datatable style="height:500px" [rows]="data" [columns]="column" [rowHeight]="25" [scrollbarV]="true"></ngx-datatable>
+  <ngx-datatable class="grid" [loadingIndicator]="loading" [rows]="data" [columns]="column" [rowHeight]="25" [scrollbarV]="true"></ngx-datatable>
   <!-- renderer -->
-  <script type="text/ng-template" id="objlink.html">
-    <div class="ui-grid-cell-contents btn" ng-click="grid.appScope.vm.link(row)">{{grid.getCellValue(row, col)}}</div>
-  </script>
-  <!-- renderer -->
-  <ng-template #updTpl let-column="column">
-    <div class="ui-grid-cell-contents updBtn" (click)="alert('gerare')">{{column.name}}</div>
-  </ng-template>
   <ng-template #dateTpl let-column="column">
-    <div class="ui-grid-cell-contents" (click)="alert('gerare')">{{column.name}}</div>
+    <div class="" (click)="alert('gerare')">{{column.data}}</div>
   </ng-template>
-  <ng-template #numTpl let-column="column">
-    <div class="ui-grid-cell-contents grid-cell-align-right">{{column.name}}</div>
+  <ng-template #numTpl let-column="column" let-value="value">
+    <div class="grid-cell-align-right">{{value|number}}</div>
+  </ng-template>
+  <ng-template #updTpl let-column="column" let-value="value" let-row="row">
+    <div class="updBtn" (click)="upd(row)">{{value}}</div>
   </ng-template>
 </ion-content>

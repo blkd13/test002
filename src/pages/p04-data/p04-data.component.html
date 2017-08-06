@@ -1,14 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>集計</ion-title>
+  </ion-navbar>
+</ion-header>
 <ion-content>
-  <!-- <div data-ui-grid="myGrid" class="grid"></div> -->
-
+  <ngx-datatable class="grid" [rows]="data" [columns]="column" [rowHeight]="25" [scrollbarV]="true"></ngx-datatable>
   <!-- renderer -->
-  <script type="text/ng-template" id="objlink.html">
-    <div class="ui-grid-cell-contents" ng-click="grid.appScope.vm.link(row)">{{grid.getCellValue(row, col)}}</div>
-  </script>
-  <script type="text/ng-template" id="date.html">
-    <div class="ui-grid-cell-contents">{{grid.getCellValue(row, col) | date:"yyyy-MM-dd"}}</div>
-  </script>
-  <script type="text/ng-template" id="num.html">
-    <div class="ui-grid-cell-contents grid-cell-align-right">{{grid.getCellValue(row, col) | number:0}}</div>
-  </script>
+  <ng-template #dateTpl let-column="column">
+    <div class="" (click)="alert('gerare')">{{column.data}}</div>
+  </ng-template>
+  <ng-template #numTpl let-column="column" let-value="value">
+    <div class="grid-cell-align-right">{{value|number}}</div>
+  </ng-template>
+  <ng-template #updTpl let-column="column" let-value="value" let-row="row">
+    <div class="updBtn" (click)="upd(row)">{{value}}</div>
+  </ng-template>
 </ion-content>

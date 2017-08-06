@@ -1,15 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>入力</ion-title>
+  </ion-navbar>
+</ion-header>
 <ion-content>
   <div class="pageBody">
     <form name="acc">
       <ul class="entryList">
-        <li><label>種別：<select name="attrSelect" tabindex="10" [(ngModel)]="accountbookDto.attribute" (change)="updateAttr()">
-            <option *ngFor="let s of attrListO" [value]="s.kanjoType3_cd">{{s.attributeName}}</option></select></label>
+        <li><label>種別：<select name="attrSelect" tabindex="10" [(ngModel)]="root.accountbookDto.attribute">
+            <option *ngFor="let s of root.attrList" [value]="s.kanjoType3Name">{{s.kanjoType3Name}}</option></select></label>
         </li>
-        <li><label>金額：<input name="amount"  tabindex="20" type="number" [(ngModel)]="accountbookDto.amount"  ngClass="{'required': acc.amount.$untouched}" required/></label></li>
-        <li><label>内容：<input name="content" tabindex="30" type="text"   [(ngModel)]="accountbookDto.content" /></label></li>
-        <li><label>詳細：<input name="detail"  tabindex="40" type="text"   [(ngModel)]="accountbookDto.detail"  /></label></li>
-        <li><label>誰と：<input name="withwho" tabindex="50" type="text"   [(ngModel)]="accountbookDto.withwho" /></label></li>
-        <li><label>日付：<input name="dateYmd" tabindex="60" type="date"   [(ngModel)]="accountbookDto.dateYmd" ngClass="{'required': acc.dateYmd.$untouched}" required/></label></li>
+        <li><label>金額：<input name="amount"  tabindex="20" type="number" [(ngModel)]="root.accountbookDto.amount"  ngClass="{'required': acc.amount.$untouched}" required/></label></li>
+        <li><label>内容：<input name="content" tabindex="30" type="text"   [(ngModel)]="root.accountbookDto.content" /></label></li>
+        <li><label>詳細：<input name="detail"  tabindex="40" type="text"   [(ngModel)]="root.accountbookDto.detail"  /></label></li>
+        <li><label>誰と：<input name="withwho" tabindex="50" type="text"   [(ngModel)]="root.accountbookDto.withwho" /></label></li>
+        <li><label>日付：<input name="dateYmd" tabindex="60" type="date"   [(ngModel)]="root.accountbookDto.dateYmd" ngClass="{'required': acc.dateYmd.$untouched}" required/></label></li>
       </ul>
       <div class="bottomButton">
         <button ng-disabled="acc.$invalid" title="確定＋クリア＋リストへ遷移" (click)="entry(true, true)">S+C+L</button>
@@ -18,7 +23,7 @@
         <!--確定＋クリア-->
         <button ng-disabled="acc.$invalid" title="確定＋そのまま" (click)="entry(false, false)">S+S</button>
         <!--確定＋そのまま-->
-        <button (click)="clear()">Clear</button>
+        <button (click)="root.clearAccountbookDto(root.accountbookDto)">Clear</button>
       </div>
     </form>
   </div>

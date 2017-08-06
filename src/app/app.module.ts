@@ -23,6 +23,7 @@ import { AttributeListService } from '../service/attribute-list.service';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { RootProvider } from '../providers/root/root';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SplashScreen,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     DatePipe,
-    AttributeListService
+    AttributeListService,
+    RootProvider
   ]
 })
 export class AppModule { }

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   // styleUrls: ['./p05-list.component.scss']
 })
 export class P05ListComponent implements OnInit {
+  data: any[];
 
   constructor() { }
 

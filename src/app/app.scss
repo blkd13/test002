@@ -1,6 +1,4 @@
 // http://ionicframework.com/docs/theming/
-
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -14,3 +12,53 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.grid {
+    height: 100%;
+    width: 100%;
+    font-size: 10pt;
+}
+
+$grid-border-color:lightgray;
+.datatable-header-cell,
+.datatable-body-cell {
+    padding: 3px;
+    border-right: 1px solid $grid-border-color;
+    border-top: 1px solid $grid-border-color;
+}
+
+.datatable-header-cell {
+    background-color: #eeeeee;
+}
+
+.datatable-body {
+    top: -2px;
+}
+
+.grid-cell-align-right {
+    text-align: right;
+}
+
+.datatable-header-cell {
+    border-bottom: 1px solid $grid-border-color;
+}
+
+.datatable-header .datatable-row-center {
+    box-sizing: content-box;
+}
+
+.datatable-header .datatable-row-center,
+.datatable-body .datatable-row-wrapper {
+    border-left: 1px solid $grid-border-color;
+}
+
+.datatable-body .datatable-row-wrapper:nth-child(even) .datatable-body-cell {
+    background-color: #f3f3f3;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.scroll-content {
+    overflow: auto;
+}

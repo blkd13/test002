@@ -1,5 +1,8 @@
 export class AttributeDto {
-    kanjoType3_cd: string;
-    attributeName: string;
+    serialNo: number;
+    kanjoType0Cd: string;
+    groupId: string;
+    kanjoType3Cd: string;
+    kanjoType3Name: string;
     sortKey: number;
 }

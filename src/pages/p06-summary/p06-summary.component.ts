@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   // styleUrls: ['./p06-summary.component.scss']
 })
 export class P06SummaryComponent implements OnInit {
+  data: any[];
 
   constructor() { }
 

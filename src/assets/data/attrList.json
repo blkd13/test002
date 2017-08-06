@@ -1,0 +1,415 @@
+[
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0000",
+        "kanjoType3Name": "現金",
+        "serialNo": 1
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0020",
+        "kanjoType3Name": "財布隠し",
+        "serialNo": 2
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0030",
+        "kanjoType3Name": "プール",
+        "serialNo": 3
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0040",
+        "kanjoType3Name": "貯金箱",
+        "serialNo": 4
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0050",
+        "kanjoType3Name": "Felica",
+        "serialNo": 5
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0100",
+        "kanjoType3Name": "りそな普通",
+        "serialNo": 6
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0110",
+        "kanjoType3Name": "りそな外貨",
+        "serialNo": 7
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0120",
+        "kanjoType3Name": "ゆうちょ",
+        "serialNo": 8
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0130",
+        "kanjoType3Name": "ゆうちょ定期",
+        "serialNo": 9
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0140",
+        "kanjoType3Name": "ソニー普通",
+        "serialNo": 10
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0142",
+        "kanjoType3Name": "ソニー定期",
+        "serialNo": 11
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0143",
+        "kanjoType3Name": "ソニーUSD",
+        "serialNo": 12
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0144",
+        "kanjoType3Name": "ソニーEUR",
+        "serialNo": 13
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0145",
+        "kanjoType3Name": "ソニーGBP",
+        "serialNo": 14
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0146",
+        "kanjoType3Name": "ソニーCAD",
+        "serialNo": 15
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0147",
+        "kanjoType3Name": "ソニーAUD",
+        "serialNo": 16
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0148",
+        "kanjoType3Name": "ソニーNZD",
+        "serialNo": 17
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0220",
+        "kanjoType3Name": "有形固定資産",
+        "serialNo": 18
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0230",
+        "kanjoType3Name": "無形固定資産",
+        "serialNo": 19
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0240",
+        "kanjoType3Name": "家財",
+        "serialNo": 20
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0520",
+        "kanjoType3Name": "NRI持株",
+        "serialNo": 21
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0530",
+        "kanjoType3Name": "野村本店",
+        "serialNo": 22
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0540",
+        "kanjoType3Name": "ホット",
+        "serialNo": 23
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0570",
+        "kanjoType3Name": "金地金",
+        "serialNo": 24
+    },
+    {
+        "kanjoType0Cd": "2L",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0920",
+        "kanjoType3Name": "借入金",
+        "serialNo": 29
+    },
+    {
+        "kanjoType0Cd": "2L",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0925",
+        "kanjoType3Name": "預り金",
+        "serialNo": 30
+    },
+    {
+        "kanjoType0Cd": "2L",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0929",
+        "kanjoType3Name": "未払金",
+        "serialNo": 31
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0930",
+        "kanjoType3Name": "貸付金",
+        "serialNo": 25
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0935",
+        "kanjoType3Name": "立替",
+        "serialNo": 26
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0940",
+        "kanjoType3Name": "未収金",
+        "serialNo": 27
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0945",
+        "kanjoType3Name": "前払金",
+        "serialNo": 28
+    },
+    {
+        "kanjoType0Cd": "2L",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0950",
+        "kanjoType3Name": "JCB",
+        "serialNo": 32
+    },
+    {
+        "kanjoType0Cd": "2L",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0960",
+        "kanjoType3Name": "VISA",
+        "serialNo": 33
+    },
+    {
+        "kanjoType0Cd": "2L",
+        "groupId": "G0058",
+        "kanjoType3Cd": "0962",
+        "kanjoType3Name": "VISA",
+        "serialNo": 34
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1010",
+        "kanjoType3Name": "費用",
+        "serialNo": 35
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1020",
+        "kanjoType3Name": "食費",
+        "serialNo": 36
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1030",
+        "kanjoType3Name": "交際費",
+        "serialNo": 37
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1040",
+        "kanjoType3Name": "バンド",
+        "serialNo": 38
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1050",
+        "kanjoType3Name": "経費",
+        "serialNo": 39
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1060",
+        "kanjoType3Name": "贅沢費",
+        "serialNo": 40
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1070",
+        "kanjoType3Name": "雑費",
+        "serialNo": 41
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1080",
+        "kanjoType3Name": "書籍",
+        "serialNo": 42
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1090",
+        "kanjoType3Name": "化粧品",
+        "serialNo": 43
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1100",
+        "kanjoType3Name": "固定費",
+        "serialNo": 44
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1110",
+        "kanjoType3Name": "服飾費",
+        "serialNo": 45
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1120",
+        "kanjoType3Name": "光熱費",
+        "serialNo": 46
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1130",
+        "kanjoType3Name": "天引",
+        "serialNo": 47
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1140",
+        "kanjoType3Name": "社保",
+        "serialNo": 48
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1150",
+        "kanjoType3Name": "税金",
+        "serialNo": 49
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "1160",
+        "kanjoType3Name": "減価償却費",
+        "serialNo": 50
+    },
+    {
+        "kanjoType0Cd": "4R",
+        "groupId": "G0058",
+        "kanjoType3Cd": "2010",
+        "kanjoType3Name": "収入",
+        "serialNo": 52
+    },
+    {
+        "kanjoType0Cd": "4R",
+        "groupId": "G0058",
+        "kanjoType3Cd": "2011",
+        "kanjoType3Name": "雑収入",
+        "serialNo": 53
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "8110",
+        "kanjoType3Name": "繰越金",
+        "serialNo": 51
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "9010",
+        "kanjoType3Name": "中勘資産",
+        "serialNo": 54
+    },
+    {
+        "kanjoType0Cd": "1A",
+        "groupId": "G0058",
+        "kanjoType3Cd": "9011",
+        "kanjoType3Name": "中勘リスク",
+        "serialNo": 55
+    },
+    {
+        "kanjoType0Cd": "2L",
+        "groupId": "G0058",
+        "kanjoType3Cd": "9020",
+        "kanjoType3Name": "中勘負債",
+        "serialNo": 56
+    },
+    {
+        "kanjoType0Cd": "3C",
+        "groupId": "G0058",
+        "kanjoType3Cd": "9030",
+        "kanjoType3Name": "中勘純資産",
+        "serialNo": 57
+    },
+    {
+        "kanjoType0Cd": "5E",
+        "groupId": "G0058",
+        "kanjoType3Cd": "9040",
+        "kanjoType3Name": "中勘費用",
+        "serialNo": 58
+    },
+    {
+        "kanjoType0Cd": "4R",
+        "groupId": "G0058",
+        "kanjoType3Cd": "9050",
+        "kanjoType3Name": "中勘収入",
+        "serialNo": 59
+    }
+]

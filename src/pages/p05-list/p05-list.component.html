@@ -1,8 +1,8 @@
 <ion-content>
-  <!-- <div data-ui-grid="myGrid" class="grid"></div> -->
+  <ngx-datatable style="height:500px" [rows]="data" [columns]="column" [rowHeight]="25" [scrollbarV]="true"></ngx-datatable>
 
   <!-- renderer -->
-  <script type="text/ng-template" id="upd.html">
+  <!-- <script type="text/ng-template" id="upd.html">
     <div class="ui-grid-cell-contents updBtn" ng-click="grid.appScope.vm.upd(row)">{{grid.getCellValue(row, col)}}</div>
   </script>
   <script type="text/ng-template" id="date.html">
@@ -10,5 +10,5 @@
   </script>
   <script type="text/ng-template" id="num.html">
     <div class="ui-grid-cell-contents grid-cell-align-right">{{grid.getCellValue(row, col) | number:0}}</div>
-  </script>
+  </script> -->
 </ion-content>
